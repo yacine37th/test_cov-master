@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">appToComplete</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="otp_verification">OTP verification</string>
+    <string name="we_will_send_you_an_one_time_password_on_this_mobile_number">We will send you an one time Password on this mobile number</string>
+    <string name="enter_mobile_number">Enter Mobile Number</string>
+    <string name="enter_the_otp_sent_to">Enter the OTP sent to</string>
+    <string name="didn_t_receive_the_otp">Didn\'t receive the OTP</string>
+    <string name="resend_otp">resend OTP</string>
+    <string name="DB_url">https://covoapp-5a3bf-default-rtdb.europe-west1.firebasedatabase.app/</string>
+</resources>

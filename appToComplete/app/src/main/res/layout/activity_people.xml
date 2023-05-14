@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/photo_2023_03_18_18_7_43"
+    android:orientation="vertical"
+    tools:context=".myapplication58.People">
+    <androidx.cardview.widget.CardView
+        android:layout_width="wrap_content"
+        android:layout_height="500dp"
+        android:layout_margin="30dp"
+        android:background="@drawable/drivers_edittext"
+        app:cardCornerRadius="30dp"
+        app:cardElevation="20dp">
+
+
+
+    <LinearLayout
+        android:layout_width="328dp"
+        android:layout_height="500dp"
+        android:layout_gravity="clip_horizontal"
+        android:orientation="vertical"
+        android:padding="24dp">
+        <EditText
+            android:id="@+id/Departpeople"
+            android:layout_width="match_parent"
+            android:layout_height="53dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/drivers_edittext"
+
+            android:drawableRight="@drawable/rec"
+
+            android:hint="Depart"
+            android:padding="8dp"
+            android:textColor="@color/black"
+            android:textColorHighlight="@color/cardview_dark_background"
+            android:textSize="20dp" />
+        <EditText
+            android:id="@+id/Destinationpeople"
+            android:layout_width="match_parent"
+            android:layout_height="53dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/drivers_edittext"
+
+            android:drawableRight="@drawable/rec"
+
+            android:hint="Destination"
+            android:padding="8dp"
+            android:textColor="@color/black"
+            android:textColorHighlight="@color/cardview_dark_background"
+            android:textSize="20dp" />
+        <CalendarView
+            android:layout_width="wrap_content"
+            android:layout_height="230dp"
+            />
+
+
+
+        <Button
+            android:id="@+id/search_people"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/teal_200"
+            android:text="Search"
+            app:cornerRadius="20dp"
+            />
+
+    </LinearLayout>
+
+
+
+
+    </androidx.cardview.widget.CardView>
+
+</RelativeLayout>

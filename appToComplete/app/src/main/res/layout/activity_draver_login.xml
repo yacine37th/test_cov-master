@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".myapplication58.DraverLoginActivity"
+    android:gravity="center"
+    android:background="@drawable/photo_2023_03_18_18_7_43"
+
+    android:orientation="vertical">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="30dp"
+        android:background="@drawable/drivers_edittext"
+        app:cardCornerRadius="30dp"
+        app:cardElevation="20dp">
+
+
+        <LinearLayout
+            android:layout_width="328dp"
+            android:layout_height="381dp"
+            android:layout_gravity="clip_horizontal"
+            android:orientation="vertical"
+            android:padding="24dp"
+            android:background="@color/white"
+            >
+
+
+            <TextView
+                android:id="@+id/loginreg"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Login and Registration"
+                android:textAlignment="center"
+                android:textColor="@color/teal_700"
+                android:textSize="30sp"
+                android:textStyle="bold" />
+
+
+            <EditText
+                android:textColorHint="#B0B0B0"
+                android:id="@+id/Email"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/drivers_edittext"
+
+                android:drawableRight="@drawable/ic_baseline_person_24"
+
+                android:hint="Email"
+                android:padding="8dp"
+                android:textColor="@color/black"
+                android:textColorHighlight="@color/cardview_dark_background"
+                android:textSize="20dp" />
+
+            <EditText
+                android:textColorHint="#B0B0B0"
+                android:id="@+id/Password"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_marginTop="5dp"
+                android:background="@drawable/drivers_edittext"
+                android:drawableRight="@drawable/ic_baseline_lock_24"
+                android:hint="password"
+                android:padding="8dp"
+                android:textColor="@color/black"
+                android:textColorHighlight="@color/cardview_dark_background"
+                android:textSize="20dp" />
+
+
+            <Button
+                android:id="@+id/Login"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:backgroundTint="@color/teal_700"
+                android:text="login"
+                app:cornerRadius="20dp" />
+            <Button
+                android:id="@+id/Registration"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:backgroundTint="@color/teal_700"
+                android:text="Registration"
+                app:cornerRadius="20dp" />
+            <TextView
+                android:id="@+id/txt_view"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:text="Log in using the phone"
+                android:textColor="@color/black"
+                android:gravity="center"
+                android:textSize="20dp"/>
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="80dp"
+        android:textColor="@color/black"
+        android:textSize="17dp"
+        />
+</LinearLayout>
